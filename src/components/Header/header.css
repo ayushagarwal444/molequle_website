@@ -1,0 +1,43 @@
+.main{
+    height: 412px;
+    width: 100%;
+}
+.lefts{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.heading{
+    line-height: 68px;
+}
+.para{
+    font-size:25px;
+    color: black;
+}
+.button{
+    height: 59px;
+    width: 199px;
+    background-color: rgba(141, 46, 209, 1);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.rights img{
+    margin-left: 120px;
+}
+@media (max-width: 620px) {
+        .lefts{
+            margin-left:2%;
+        }
+        .rights{
+            display: none;
+        }
+        .main{
+            background-image: url("./Group 48703.svg");
+        }
+        .button{
+            height: 51px;
+            width: 147px;
+            font-size: 14px !important;
+        }
+
+}

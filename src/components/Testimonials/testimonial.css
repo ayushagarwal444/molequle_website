@@ -1,0 +1,85 @@
+@media screen and (max-width: 700px) {
+  .leftCard {
+    display: none;
+  }
+
+  .rightCard {
+    display: none;
+  }
+}
+@media (max-width: 480px) { 
+  .cards{
+    margin: 0;
+    height: 290px;
+  }
+  .card{
+    height: 290px;
+  }
+ }
+
+.carousel-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.avatars {
+  border-radius: 50%;
+  height: 50px;
+  margin-top: -2em;
+  margin-right: 20px;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+}
+
+.card {
+  margin: 2em  1em 4em 1em;
+  background-color: rgba(243, 243, 243, 1);
+  padding: 1em;
+  width: 480px;
+  height: 222px;
+}
+.active {
+  height: 222px;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.arrow {
+  height: 3em;
+}
+
+.arrow:active {
+  fill: purple;
+}
+.text{
+  font-size: 15px;
+  font:regular;
+  margin-top: 20px;
+  color: rgba(17, 20, 45, 1);
+}
+.name {
+  margin-top: 0.5em;
+  margin-bottom: -0.2em;
+}
+.tracker {
+  display: flex;
+  justify-content: center;
+  height: 2.5em;
+  margin-top: 1em;
+}
+
+.circle {
+  transform: scale(0.4);
+}
+.checked {
+  color: orange;
+}
+
+

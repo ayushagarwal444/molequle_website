@@ -1,0 +1,23 @@
+.headerContact{
+    height: 595px;
+    width: auto;
+
+}
+.upper{
+    height: 595px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 27px;
+}
+.upper .heading{
+    margin: auto auto ;
+}
+.contactHeading{
+    font-size: 45px;
+}
+@media (max-width: 620px){
+    .contactHeading{
+        font-size: 24px;
+    }
+}
