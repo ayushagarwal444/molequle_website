@@ -4,7 +4,10 @@ import "./navbar.css"
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
-
+    document.getElementsByClassName('.mega-menu').onClick = (e)=>{
+        e.stopPropagation();
+    }
+    
     return (
         <nav className="w-auto text-black shadow">
             <div className="  px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -65,17 +68,19 @@ export default function NavBar() {
             </a>
 		<a className="flex items-center   sm:mb-0 sm:text-base text-2xl font-medium hover:text-purple-600 link link-underline link-underline-black  text-purple-700 sm:text-black">
             <Link to="/about">About</Link></a>
-            
-		<button className=" flex flex-col items-center group ">
-			<div className="my-auto sm:my-0 mr-auto sm:text-base text-2xl sm:ml-2  font-medium hover:text-purple-600 link link-underline link-underline-black text-purple-700 sm:text-black">
-				Products
+        
+		<button className=" flex flex-col items-center group mega-menu " onClick={(e)=>{e.preventDefault()}}>
+			<div className="my-auto sm:my-0 mr-auto sm:text-base text-2xl sm:ml-2  font-medium hover:text-purple-600 link link-underline link-underline-black text-purple-700 sm:text-black "  >
+			Products	
 			</div>
-			<div className="absolute  hidden w-screen   mt-16 bg-white border  shadow-lg group-focus:visible">
-                <div className=" flex flex-row  sm:flex ">
+			<div className="absolute  hidden w-screen   mt-16 bg-white border  shadow-lg group-focus:visible" onClick={(e)=>{e.stopPropagation}}>
+                <div className=" flex flex-row  sm:flex " onClick={(e)=>{e.stopPropagation}}>
                 <div className="w-60 h-auto ml-44 mt-10 hidden sm:block">
                     <div className="flex flex-col">
                         <div className="flex">
-                    <h1 className="font-semibold text-lg ">Industries</h1>
+                    <a className="font-semibold text-lg ">
+                        <Link to='/industry'onClick={(e)=> {e.preventDefault()}} >Industries</Link>
+                        </a>
                         <button className="rounded-full bg-green-100 p-2 drop-shadow-sm my-auto text-xs text-green-700 ml-5">PREMIUM</button>
                         </div>
                     <p className="text-gray-500 leading-5 text-sm font-normal w-full mt-3 ">Demo Description non deserunt ullamco est sit aliqua amet sint. </p>
@@ -84,12 +89,14 @@ export default function NavBar() {
                 </div>
 				<div className="grid sm:grid-cols-2 grid-cols-1 gap-10 p-8">
                     <div className="block sm:hidden ">
-                        <div className="flex justify-between">
-                        <button className="bg-purple-100 text-purple-600 rounded-md p-2">Industries</button>
-                        <button className="p-2 rounded-md drop-shadow-lg">ALL</button>
+                        <div className="flex">
+                        <button className="bg-purple-600 drop-shadow-lg text-white rounded-full px-3 text-base " onClick={(e)=>{e.preventDefault()}}>
+                            <Link to='/industry'>Industries</Link>
+                            </button>
+                        <button className="p-2  drop-shadow-md bg-gray-200 rounded-full px-5 ml-4 text-base">ALL</button>
                         </div>
                     </div>
-					<a className="flex" href="#">
+					<a className="flex" href="/industry">
 						<span className="flex-shrink-0">
                             <img src=".\Group 1000003216.svg " alt="first" />
                         </span>
@@ -98,7 +105,7 @@ export default function NavBar() {
 							<span className="text-left mt-1 text-sm font-normal text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 						</div>
 					</a>
-					<a className="flex" href="#">
+					<a className="flex" href="/industry">
 						<span className="flex-shrink-0">
                         <img src=".\Group 1000003216.svg " alt="second" />
                         </span>
@@ -107,7 +114,7 @@ export default function NavBar() {
 							<span className="text-left mt-1 text-sm font-normal text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
 						</div>
 					</a>
-					<a className="flex" href="#">
+					<a className="flex" href="/industry">
 						<span className="flex-shrink-0 ">
                         <img src=".\Group 1000003217.svg " alt="third" />
                         </span>
@@ -117,7 +124,7 @@ export default function NavBar() {
 								elit.</span>
 						</div>
 					</a>
-					<a className="flex" href="#">
+					<a className="flex" href="/industry">
 						<span className="flex-shrink-0">
                         <img src=".\Group 1000003218.svg " alt="Fourth" />
                         </span>
@@ -127,7 +134,7 @@ export default function NavBar() {
 								elit.</span>
 						</div>
 					</a>
-                    <a className="flex" href="#">
+                    <a className="flex" href="/indusrty">
 						<span className="flex-shrink-0 ">
                         <img src=".\Group 1000003218.svg " alt="fifth" />
                         </span>

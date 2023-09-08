@@ -1,6 +1,8 @@
 .main{
     height: 412px;
     width: 100%;
+    background-color: rgba(251, 251, 251, 1);
+    ;
 }
 .lefts{
     margin-left: 10%;

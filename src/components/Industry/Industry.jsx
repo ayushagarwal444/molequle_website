@@ -1,18 +1,34 @@
+import "./Indusrty.css"
 const Industry = () => {
   return (
     <>
     
     <h1 className="text-2xl font-medium sm:text-3xl" style={{margin:"4% 0 1% 10%"}} >Industry </h1>
     <div className="grid grid-cols-2 sm:grid-cols-6  mr-5 sm:mr-60 ml-1 sm:ml-32">
-        <img className="m-4" src="./Group 48745.svg" alt="img1" />
-        <img className="m-4" src="./Group 48744.svg" alt="img2" />
-        <img className="m-4" src="./Group 48742.svg" alt="img3" />
-        <img className="m-4" src="./Group 48748.svg" alt="img5" />
-        <img className="m-4" src="./Group 48746.svg" alt="img6" />
+        <div className="container">
+        <img className="m-4 image" src="./Frame 550.svg" alt="img1" />
+        <div className="bottom-right font-bold">Pharma</div>
+        </div>
+        <div className="container">
+        <img className="m-4 image" src="./Rectangle 28635.svg" alt="img2" />
+        <div className="bottom-right font-bold">Agro Chemical</div>
+        </div>
+        <div className="container">
+        <img className="m-4 image" src="./Rectangle 28636.svg" alt="img3" />
+        <div className="bottom-right font-bold ">Cosmetics & Personal Care</div>
+        </div>
+        <div className="container">
+        <img className="m-4 image" src="./Rectangle 28637.svg" alt="img5" />
+        <div className="bottom-right font-bold">Nutrition & Supplements</div>
+        </div>
+        <div className="container">
+        <img className="m-4 image" src="./Rectangle 28638.svg" alt="img6" />
+        <div className="bottom-right font-bold">Plastics & Polymers</div>
+        </div>
     </div>
     {/* first =====================================>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/}
 
-    <div className="flex flex-col-reverse mt-5 sm:mt-6 sm:flex sm:flex-row md:ml-40 sm:ml-40 h-auto" >
+    <div className="flex flex-col-reverse mt-5 sm:mt-20 sm:flex sm:flex-row md:ml-40 sm:ml-40 h-auto" >
         <div className="left w-auto sm:w-2/5" >
             <h2 className="text-xl font-medium sm:text-3xl sm:leading-relaxed  ml-5 sm:ml-0">Diverse Range of Specialty Chemicals</h2>
             <p className="font-medium text-sm sm:text-lg whitespace-pre-wrap text-gray-500   gap-3 tracking-normal mt-4 float-left leading-loose sm:leading-loose ml-5 sm:ml-0 sm:mr-0 mr-5">Explore Molequle`s <span className="text-purple-600 leading-loose ">vast product portfolio,</span> ranging from APIs & Excipients in Pharma to Polymers in Plastics, encompassing a comprehensive range of industrial and specialty chemicals. <br />
@@ -60,9 +76,9 @@ const Industry = () => {
         </div>
     </div>
     {/* value chain ======================>>>>>>>>>>>>>>>>>>>>>>>>>> */}
-    <div className="w-auto bg-purple-50 mt-20 h-auto" style={{ padding:"3% 10% 4% 10% ", height:"auto"}}>
+    <div className="w-auto bg-purple-50 mt-28 h-auto" style={{ padding:"3% 10% 4% 10% ", height:"auto"}}>
         <h1 className="text-xl font-medium sm:text-3xl">Redefining Speciality Chemicals value chain!</h1>
-        <p className="font-medium text-sm sm:text-lg whitespace-pre-wrap text-gray-600  gap-3 tracking-normal mt-4">Molequle is your trusted gateway to best manufacturers from China, India, and beyond to fulfill all your chemical needs. We provide innovative and market driven products across industries with end-to-end logistics support.</p>
+        <p className="font-medium text-sm sm:text-lg whitespace-pre-wrap  gap-3 tracking-normal mt-4 " >Molequle is your trusted gateway to best manufacturers from China, India, and beyond to fulfill all your chemical needs. We provide innovative and market driven products across industries with end-to-end logistics support.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-4 mt-10">
             {/* value chain first  card*/}

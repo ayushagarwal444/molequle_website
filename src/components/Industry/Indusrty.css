@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+  }
+  .bottom-right {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:l rgba(255, 255, 255, 0)
+    rgba(0, 0, 0, 1);
+  }
+  .image:hover{
+    border: 1px solid purple;
+    cursor: pointer;
+  }
+  p{
+    color:rgba(106, 106, 106, 1);
+    letter-spacing: 2%
+    ;
+  }
