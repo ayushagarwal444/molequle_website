@@ -1,6 +1,12 @@
 .headerContact{
-    height: 595px;
+    line-height: 48px;
+
+}
+.width-input{
     width: auto;
+}
+.shadow{
+    box-shadow: 0px 59.04428482055664px 40px 0px #C8C8C826;
 
 }
 .upper{
@@ -19,5 +25,8 @@
 @media (max-width: 620px){
     .contactHeading{
         font-size: 24px;
+    }
+    .width-input{
+        width: -webkit-fill-available;
     }
 }

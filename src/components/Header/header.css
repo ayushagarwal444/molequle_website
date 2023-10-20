@@ -2,30 +2,38 @@
     height: 412px;
     width: 100%;
     background-color: rgba(251, 251, 251, 1);
-    ;
+    overflow: hidden;
+}
+.main img{
+    float: right;
 }
 .lefts{
-    margin-left: 10%;
-    margin-top: 40px;
+
+    margin-top: 30px;
 }
 .heading{
     line-height: 68px;
+    letter-spacing: 3%;
 }
 .para{
-    font-size:25px;
     color: black;
+    line-height:26px;
+    letter-spacing:1%;
 }
-.button{
-    height: 59px;
-    width: 199px;
+.buttonss{
     background-color: rgba(141, 46, 209, 1);
-    font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
+    line-height: 27px;
 }
 .rights img{
-    margin-left: 120px;
+    margin-left: 79px;
 }
+@media (max-width: 1500) {
+    .rights img{
+        margin-left: 106px;
+    }
+  }
 @media (max-width: 620px) {
         .lefts{
             margin-left:2%;
@@ -34,8 +42,9 @@
             display: none;
         }
         .main{
-            background-image: url("./Group 48703.svg");
+            background-image: url("../../assets/Background.png");
         }
+        
         .button{
             height: 51px;
             width: 147px;
