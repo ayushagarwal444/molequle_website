@@ -1,5 +1,13 @@
 export const catalystsData = [
     {
+    name: "Ayush Test",
+    parentId: "100",
+    campaignType: "Ayush Test",
+    status: "Failed",
+    channel: "android",
+    action: ":"
+  },
+    {
       name: "Sale",
       parentId: "12",
       campaignType: "Push",
