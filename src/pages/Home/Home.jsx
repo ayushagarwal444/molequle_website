@@ -2,6 +2,7 @@ import Navbar2 from "../../components/Navbar/Navbar2";
 import Header from "../../components/Header/Header";
 import Contact from "../../components/Contact/Contact";
 import Industry from "../../components/Industry/Industry";
+import TopHeader from "../../components/TopHeader/TopHeader";
 import Testimonial from "../../components/Testimonials/Testimonial";
 import Footer from "../../components/Footer/Footer";
 import React from "react";
@@ -13,7 +14,7 @@ const Home = () => {
   return (
     <div>
      
-     
+      <TopHeader/>
         <div className="bg-white">
         <div className="sm:mx-auto sm:w-[1280px]">
           <Navbar2 />
