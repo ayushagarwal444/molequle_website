@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "molequle",
     "public": "build",
     "ignore": [
       "firebase.json",
