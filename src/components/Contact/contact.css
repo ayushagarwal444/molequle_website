@@ -5,7 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     /* justify-content: flex-start; */
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: auto;
     background-color: rgba(249, 245, 253, 1);
     overflow-x: hidden;
@@ -41,18 +41,11 @@
   }
   
   .contact_us_green .responsive-container-block .container {
-    
-    margin-top: 60px;
     margin-bottom: 60px;
-    margin: 0px 5% 0 5%;
+  
   }
   
-  .contact_us_green .responsive-container-block .big-container {
-    padding-top: 20px;
-    padding-right: 50px;
-    padding-bottom: 0px;
-    padding-left: 50px;
-  }
+  
   
   .contact_us_green .text-blk.contactus-head {
     font-size: 30px;

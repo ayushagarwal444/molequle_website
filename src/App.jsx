@@ -8,6 +8,7 @@ import Main from './pages/Industries/Main';
 import Pharma from './pages/Pharma/Pharma';
 import About from './pages/AboutUs/About';
 import PageNot from './pages/PageNotFound/PageNotFound';
+import Neutra from "./pages/Pharma/Neutra"
 
 
 
@@ -24,6 +25,8 @@ function App() {
         <Route exact path='/industry' element={<Main/>}/>
         <Route exact path='/pharma' element={<Pharma/>}/>
         <Route exact path='/about' element={<About/>}/>
+        <Route exact path='/neutra' element={<Neutra/>}/>
+        
         <Route exact path='*' element={<PageNot/>}/>
 
       </Routes>

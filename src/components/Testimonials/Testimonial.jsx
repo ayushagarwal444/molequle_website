@@ -5,7 +5,7 @@ import { ReactComponent as ArrowLeft } from '../../assets/arrow-left.svg';
 import { ReactComponent as ArrowRight } from '../../assets/arrow-right.svg';
 import { ReactComponent as Circle } from '../../assets/circle-solid.svg';
 const inactiveColour = 'hsla(221, 0%, 88%, 0.81)';
-const activeColour = 'rgba(141, 46, 209, 1)';
+const activeColour = 'purple';
 
 class Carousel extends React.Component {
     constructor() {
@@ -82,11 +82,23 @@ class Carousel extends React.Component {
         }
         return (
         <>
-          <div className='sm:w-[auto] pr-[6%] 2xl:pl-[8%] xl:pl-[6%]  w-[375px] max-w-[100%] sm:mt-20 mt-10 pl-5 sm:pl-0 overflow-hidden'>
+        <div className="sm:w-[auto] m-auto  max-w-[100%] sm:mt-20 mt-10 w-[350px] overflow-hidden">
+                <h1 className="text-xl sm:text-3xl font-medium pt-5 sm:pt-0"> <span className="underline-text">Uncompromising quality </span> with right compliances...</h1>
+                <p className="font-normal leading-7 tracking-[1%] text-[15px] text-[#6A6A6A]  sm:text-lg whitespace-pre-wrap  gap-3  mt-2">From Indian & US Pharmacopoeia to Reach & Toy Safety, our vast suppliers network meets highly rigid and extensive regulatory compliances.  </p>
+                <div className="grid grid-cols-3 gap-x-3 gap-y-3 sm:grid-cols-5 mt-10 sm:mt-10 mb-5 ">
+                    <img src="./Group 48681.svg" alt="first" />
+                    <img src="./Group 48682.svg" alt="secind" />
+                    <img src="./Group 48683.svg" alt="thirs" />
+                    <img src="./Group 48684.svg" alt="fourth" />
+                    <img src="./Group 48685.svg" alt="fourth" />
+                </div>
+            </div>
+            
+          <div className='sm:w-[auto]   w-[375px] max-w-[100%] sm:mt-20 mt-10 pl-5 sm:pl-0 overflow-hidden'>
             <h1 className='text-xl font-medium sm:text-3xl overflow-hidden'> <span className='underline-text'>Trusted by leaders</span> across industries...</h1>
             <p className='font-normal leading-7 tracking-[1%] text-[15px] text-[#6A6A6A]  sm:text-lg whitespace-pre-wrap  gap-3  mt-4'>Over 80% of our customers find us remarkably great to work with. Service Excellence lies in the emotions we <br /> evoke and the relationships we forge. Every customer, every day!</p>
           </div>
-            <div className="carousel-container mt-5 2xl:ml-[8%] xl:ml-[6%] w-auto px-0 max-w-[100%] ">
+            <div className="carousel-container mt-5  w-auto px-0 max-w-[100%] ">
                 <div className="cards">
                     <div className="card leftCard ">
                       <div className='flex'>
@@ -94,8 +106,8 @@ class Carousel extends React.Component {
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
                         <span className="fa fa-star checked"></span>
-                        <span className="fa fa-star"></span>
-                        <span className="fa fa-star"></span>
+                        <span className="fa fa-star checked"></span>
+                        <span className="fa fa-star checked"></span>
                         </div>
                         <div className="">
                             <h3 className="name font-semibold">{items[this.state.leftCard].name} </h3>
@@ -118,7 +130,7 @@ class Carousel extends React.Component {
                                 <p className="position" >{items[this.state.activeIndex].position}</p>
                                 <p className="testimony text">{items[this.state.activeIndex].quote}</p>
                             </div>
-                            <div className="arrow-container">
+                            <div className="arrow-container  relative">
                                 <ArrowLeft className="arrow arrow-left" fill="hsla(221, 0%, 49%, 0.98)" onClick={this.activatePreviousSlide.bind(this)}></ArrowLeft>
                                 <ArrowRight className="arrow arrow-right" fill="hsla(221, 0%, 49%, 0.98)" onClick={this.activateNextSlide.bind(this)}></ArrowRight>
                             </div>

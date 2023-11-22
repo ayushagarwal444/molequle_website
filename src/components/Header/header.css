@@ -1,8 +1,14 @@
+
 .main{
     height: 412px;
     width: 100%;
-    background-color: rgba(251, 251, 251, 1);
     overflow: hidden;
+    
+}
+.backgroundMain{
+    background-image: url("../../assets//Mask group.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .main img{
     float: right;
@@ -26,23 +32,16 @@
     border-radius: 5px;
     line-height: 27px;
 }
-.rights img{
-    margin-left: 79px;
-}
-@media (max-width: 1500) {
-    .rights img{
-        margin-left: 106px;
-    }
-  }
+
 @media (max-width: 620px) {
         .lefts{
             margin-left:2%;
         }
-        .rights{
-            display: none;
-        }
-        .main{
-            background-image: url("../../assets/Background.png");
+       
+        .backgroundMain{
+            background-image: url("../../assets/Frame 552.png");
+            background-repeat: no-repeat;
+            background-position: right;
         }
         
         .button{

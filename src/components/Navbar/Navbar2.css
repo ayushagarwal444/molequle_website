@@ -22,7 +22,7 @@
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: white;
     width: 100%;
     left: 0;
@@ -73,4 +73,19 @@
     .dropdown .dropbtn{
       width: 142px;
     }
+    .dropdown-content{
+      position: relative;
+    }
+    .hh{
+      position: fixed !important;
+      z-index: 90 !important;
+    }
+  }
+  .hh{
+    position: relative;
+    background: white;
+    z-index: 40;
+    scroll-behavior: unset;
+    width: 100%;
+    
   }

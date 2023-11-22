@@ -8,12 +8,10 @@ import { PharmaIntermidatesData } from './data';
 
 
 const tableHead = {
-    name: "Campaign Name",
-    parentId: "Campaign Id",
-    campaignType: "Type",
-    status: "Status",
-    channel: "Channel",
-    action: "Actions"
+    name: "Product Name",
+    parentId: "CAS No.",
+    campaignType: "Application",
+    
   };
 const PharmaIntermidates = () => {
     // ========================search bar
@@ -57,7 +55,7 @@ const PharmaIntermidates = () => {
     const columnData = tableCell.map((keyD, i) => {
       return <Td className = 'sm:h-[63px] h-auto font-[500] text-[15px]' key={i}>{key[keyD]}</Td>;
     });
-    return <Tr className = 'sm:h-[63px] h-auto font-[500] text-[15px]' key={index}>{columnData}</Tr>;
+    return <Tr className = 'sm:h-[63px] h-auto font-[500] text-[15px] bg-white' key={index}>{columnData}</Tr>;
   };
 
   const tableData = () => {
@@ -76,9 +74,9 @@ const PharmaIntermidates = () => {
     <div className='ml-0 mr-0  relative w-auto'>
                 <Table className="responsive-table">
                   <Thead >
-                    <Tr className="rounded-t-[18px]  bg-[#FBF6FF] text-[14px] h-auto sm:h-[63px] text-[#BDBDBD] border border-[#E9EFF4]  ">{headRow()}</Tr>
+                    <Tr className="rounded-t-[18px]  sm:bg-[#FBF6FF]  text-[14px] h-auto sm:h-[63px] text-[#BDBDBD] ">{headRow()}</Tr>
                   </Thead>
-                  <Tbody className="trhover bg-white">{tableData()}</Tbody>
+                  <Tbody className="trhover sm:bg-white bg-gray-100">{tableData()}</Tbody>
                 </Table>
                 <Pagination
                   pageSize={countPerPage}

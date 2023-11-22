@@ -7,9 +7,13 @@ const PageNot = () => {
     return (
         <>
             <TopHeader />
-            <NavBar2/>
+            <div className="bg-white">
+        <div className="sm:mx-auto sm:w-[1280px]">
+          <NavBar2 />
+          </div>
+        </div>
             <div>
-                <div className='sm:w-[396px] w-[255px] mx-auto mt-10'>
+                <div className='sm:w-[396px] w-[255px] mx-auto mt-10 sm:pt-0 pt-14'>
                     <img src="./404.svg" alt="404" />
                 </div>
                 <div className='mt-10 mb-20 sm:w-[748px] mx-auto sm:flex sm:flex-row justify-between flex-col'>

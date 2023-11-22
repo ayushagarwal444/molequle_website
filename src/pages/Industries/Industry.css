@@ -7,7 +7,13 @@
 	background-repeat: no-repeat;
 	transition: background-size .5s ease-in-out;
 }
-
+.industrybg{
+	background-image: url("../../assets/Mask group112.svg");
+	background-position: right;
+	background-size: 100%;
+	background-clip: content-box;
+	background-repeat: no-repeat;	
+}
 .link-underline-black-list {
 	background-image: linear-gradient(transparent, transparent), linear-gradient(rgba(151, 68, 210, 1), rgba(151, 68, 210, 1));
 
