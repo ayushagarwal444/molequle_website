@@ -1,11 +1,14 @@
 export const catalystsData = [
     {
+
       name: "Hydroxypropyl Methylcellulose (HPMC)",
       parentId: "9004-65-3",
       campaignType: "E5, E15, K100",
       status: "China",
       
-    },
+
+  },
+    
     {
       name: "Polyvinylpyrrolidone (PVP)",
       parentId: "9003-39-8",
@@ -209,6 +212,7 @@ export const ImpuritesData = [
     parentId: "	60-29-7	",
     campaignType: "",
   },
+
   {
     name: "Toluene",
     parentId: "108-88-3	",
