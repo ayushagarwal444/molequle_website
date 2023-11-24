@@ -118,7 +118,7 @@ const Main = () => {
 									Pharma
 								</Link>
 							</li>
-							<Link to = '/neutra'>
+							<Link to = '/nutraceutical'>
 							<li className='font-medium w-max text-[15px] sm:text-[16px] sm:mr-8 md:mr-14 link-underline-list link-underline-black-list sm:pb-[25px]' style={{ lineHeight: "24px" }}>Nutraceuticals</li>
 							</Link>
 							
