@@ -44,7 +44,7 @@ const Contact = () => {
             <div className="workik-contact-box">
               <div className="flex mb-5">
                 <img className="contact-svg  mr-5 sm:h-[28px] sm:w-[28px] h-[24px] w-[24px]" src="./Group 48772.svg"/>
-                <a className="contact-text underline font-medium" href="http://wa.me/918010150164" target="_blank" rel="noreferrer">
+                <a className="contact-text underline font-medium" href="http://wa.me/919560190710" target="_blank" rel="noreferrer">
                   Chat With Us
                 </a>
                 </div>

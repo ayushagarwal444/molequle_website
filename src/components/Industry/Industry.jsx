@@ -16,22 +16,29 @@ const Industry = () => {
                         </Link>
                     </div>
                     <div className="h-[158px] w-[163px] sm:w-auto sm:h-auto overflow-hidden hover:border-purple-700  border-transparent border-2 hover:border-current hover:rounded-[4px] sm:mb-0 mb-2">
+                        <Link to = '/pharma'>
                         <div className="containers">
                             <img className="mt-0 ml-0  mr-0 sm:m-0 image" src="./Rectangle 28635.svg" alt="img2" />
                             <div className="bottom-right sm:top-[173px] top-[123px]">Excipients</div>
                         </div>
+                        </Link>
                     </div>
+                    
                     <div className="h-[158px] w-[163px] sm:w-auto sm:h-auto overflow-hidden hover:border-purple-700  border-transparent border-2 hover:border-current hover:rounded-[4px] sm:mb-0 mb-2">
+                        <Link to = 'pharma'>
                         <div className="containers">
                             <img className="m-0 sm:m-0 image" src="./Rectangle 28640.svg" alt="img3" />
                             <div className="bottom-right  sm:top-[173px] top-[123px]">Solvents</div>
                         </div>
+                        </Link>
                     </div>
                     <div className="h-[158px] w-[163px] sm:w-auto sm:h-auto overflow-hidden hover:border-purple-700  border-transparent border-2 hover:border-current hover:rounded-[4px] sm:mb-0 mb-2">
+                        <Link to= '/nutraceutical'>
                         <div className="containers">
                             <img className="m-0 sm:m-0 image" src="./Rectangle 28637.svg" alt="img5" />
                             <div className="bottom-right sm:top-[173px] top-[123px]">Nutraceutical</div>
                         </div>
+                        </Link>
                     </div>
                    
                 </div>
@@ -40,7 +47,7 @@ const Industry = () => {
                 <div className="flex justify-between  flex-col-reverse mt-20 sm:mt-20 sm:flex sm:flex-row  sm:w-[fit-content]  w-[375px] max-w-[100%] h-auto" >
                     <div className="left w-auto sm:w-[524px] sm:mr-16" >
                         <h2 className="text-xl font-medium sm:text-3xl sm:leading-relaxed mt-5 sm:mt-0  sm:ml-0">Diverse Range of Specialty Chemicals</h2>
-                        <p className="font-medium text-sm sm:text-lg whitespace-pre-wrap text-gray-500  tracking-normal mt-4  leading-loose sm:leading-loose  sm:ml-0 sm:mr-0 mr-5">Explore Molequle`s <span className="text-purple-600 leading-loose ">vast product portfolio,</span>  of Intermediates & Excipients for various Pharma end products, encompassing a comprehensive range of industrial and specialty chemicals.  <br />
+                        <p className="font-medium text-sm sm:text-lg whitespace-pre-wrap text-gray-500  tracking-normal mt-4  leading-loose sm:leading-loose  sm:ml-0 sm:mr-0 mr-5">Explore Molequle`s <span className="text-purple-600 leading-loose ">vast product portfolio</span>  of Intermediates & Excipients for various Pharma end products, encompassing a comprehensive range of industrial and specialty chemicals.  <br />
                             Our efficient <span className="text-purple-600 leading-loose"> in-house formulation & rapid sampling
                                 process </span> ensures swift turnaround. Upholding top-notch quality and safety, our products come with essential certifications and compliances, such as USP, IP, and other global standards.</p>
                     </div>

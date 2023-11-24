@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex flex-col text-[14px] sm:text-[16px] sm:w-[850px] sm:max-w-[100%] sm:flex-row sm:flex justify-between mt-8 font-medium text-gray-400">
             <div className="flex mr-8">
             <Link to = '/pharma'><div className="mr-8"  >Pharma</div></Link>
-            <Link to = '/nutrition'><div className="  sm:mt-0">Nutraceuticals</div></Link>
+            <Link to = '/nutraceutical'><div className="  sm:mt-0">Nutraceutical</div></Link>
                       
             </div>
           </div>
